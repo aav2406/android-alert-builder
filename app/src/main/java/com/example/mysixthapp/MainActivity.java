@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onButtonClickListener () {
         btn_alert = (Button)findViewById(R.id.button);
-        Log.i("TAG","Message");
+        Log.i("TAG","Message: Updated");
         btn_alert.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
